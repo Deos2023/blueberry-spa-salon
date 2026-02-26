@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import aboutImg from "@/assets/about-spa.jpg";
+import aboutvideo from "@/assets/gallery-3.jpeg";
 
 const AboutSection = () => {
   const [visible, setVisible] = useState(false);
@@ -53,7 +54,7 @@ const AboutSection = () => {
                 src="/about-video.mp4"
                 controls
                 className="w-full"
-                poster={aboutImg}
+                poster={aboutvideo}
               />
             </div>
           </div>
