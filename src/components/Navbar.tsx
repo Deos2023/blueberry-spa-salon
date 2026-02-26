@@ -31,7 +31,7 @@ const Navbar = () => {
         <a href="#home" className="flex items-center gap-2">
           <img src={logo} alt="Blue Berry Spa and Salon" className="h-10 md:h-12 rounded-full" />
           <span className={`font-display font-semibold text-lg hidden sm:block transition-colors ${scrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
-            Blue Berry
+            Blue Berry Spa and Salon
           </span>
         </a>
 
