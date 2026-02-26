@@ -29,8 +29,8 @@ const Navbar = () => {
     >
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center gap-2">
-          <img src={logo} alt="Blue Berry Spa and Salon" className="h-10 md:h-12 rounded-full" />
-          <span className={`font-display font-semibold text-lg hidden sm:block transition-colors ${scrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
+          <img src={logo} alt="Blue Berry Spa and Salon" className="h-14 md:h-12 rounded-full" />
+          <span className={`font-display font-semibold lg:text-lg sm:text-sm transition-colors ${scrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
             Blue Berry Spa and Salon
           </span>
         </a>
