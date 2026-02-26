@@ -88,8 +88,8 @@ const ContactSection = () => {
             </div>
             <div>
               <h3 className="font-display text-xl font-semibold text-foreground mb-2">✉️ Email</h3>
-              <a href="mailto:Blueberryspafamilysalon@gmail.com" className="text-primary hover:underline break-all">
-                Blueberryspafamilysalon@gmail.com
+              <a href="mailto:blueberryspafamilysalon@gmail.com" className="text-primary hover:underline break-all">
+                blueberryspafamilysalon@gmail.com
               </a>
             </div>
           </div>

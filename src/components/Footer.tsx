@@ -31,13 +31,13 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <p>Laxmi Narayan Colony, Nabapally, Barasat</p>
               <p>📞 <a href="tel:+918240200667" className="hover:text-primary-foreground">8240200667</a></p>
-              <p>✉️ <a href="mailto:Blueberryspafamilysalon@gmail.com" className="hover:text-primary-foreground break-all">Blueberryspafamilysalon@gmail.com</a></p>
+              <p>✉️ <a href="mailto:blueberryspafamilysalon@gmail.com" className="hover:text-primary-foreground break-all">blueberryspafamilysalon@gmail.com</a></p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-10 pt-6 text-center text-sm text-primary-foreground/50">
-          © 2026 Blue Berry Spa and Salon. All Rights Reserved.
+          © 2026 Blue Berry Spa and Salon. All Rights Reserved. || Developed & Maintained by <a href="https://teamdeos.co.in/"><span className="text-accent">Digital Exposure Online Services</span></a>
         </div>
       </div>
     </footer>
