@@ -4,8 +4,12 @@ import gallery2 from "@/assets/gallery-2.jpeg";
 import gallery3 from "@/assets/gallery-3.jpeg";
 import gallery4 from "@/assets/gallery-4.jpeg";
 import gallery5 from "@/assets/gallery-5.jpeg";
+import gallery6 from "@/assets/gallery-6.jpeg";
+import gallery7 from "@/assets/gallery-7.jpeg";
+import gallery8 from "@/assets/gallery-8.jpeg";
+import gallery9 from "@/assets/gallery-9.jpeg";
 
-const images = [gallery1, gallery2, gallery3, gallery4, gallery5];
+const images = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9];
 
 const GallerySection = () => {
   const [lightbox, setLightbox] = useState<number | null>(null);
