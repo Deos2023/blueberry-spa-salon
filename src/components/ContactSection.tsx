@@ -1,7 +1,13 @@
 import { useState } from "react";
 
 const ContactSection = () => {
-  const [form, setForm] = useState({ name: "", phone: "", service: "", date: "", message: "" });
+  const [form, setForm] = useState({
+    name: "",
+    phone: "",
+    service: "",
+    date: "",
+    message: "",
+  });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -12,9 +18,14 @@ const ContactSection = () => {
   return (
     <section id="contact" className="section-padding bg-background">
       <div className="container max-w-6xl mx-auto">
-        <span className="block text-primary font-body text-sm tracking-[0.2em] uppercase font-medium text-center mb-2">Contact Us</span>
+        <span className="block text-primary font-body text-sm tracking-[0.2em] uppercase font-medium text-center mb-2">
+          Contact Us
+        </span>
         <h2 className="section-heading">Book Your Appointment</h2>
-        <p className="section-subheading">Fill out the form below and we'll connect with you on WhatsApp to confirm your booking.</p>
+        <p className="section-subheading">
+          Fill out the form below and we'll connect with you on WhatsApp to
+          confirm your booking.
+        </p>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Form */}
@@ -75,20 +86,48 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div className="space-y-6 font-body">
             <div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-2">📍 Address</h3>
+              <h3 className="font-display text-m font-semibold text-foreground mb-2">
+                📍 Address 1
+              </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Laxmi Narayan Colony (Landmark: Parker Math)<br />
-                Nabapally, Barasat, North 24 Parganas<br />
-                West Bengal – 700126
+                Laxmi Narayan Colony (Landmark: Parker Math)
+                <br />
+                Nabapally, Barasat, North 24 Parganas
+                <br />
+                West Bengal – 700126.
               </p>
             </div>
             <div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-2">📞 Phone</h3>
-              <a href="tel:+918240200667" className="text-primary hover:underline text-lg">+91 8240200667</a>
+              <h3 className="font-display text-m font-semibold text-foreground mb-2">
+                📍 Address 2
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Holding Number 51, Ward Number 5,
+                <br />
+                Barasat Colony More, Krishnanagar Road, Navapally,
+                <br />
+                Kolkata-700126, West Bengal.
+              </p>
             </div>
             <div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-2">✉️ Email</h3>
-              <a href="mailto:blueberryspafamilysalon@gmail.com" className="text-primary hover:underline break-all">
+              <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+                📞 Phone
+              </h3>
+              <a
+                href="tel:+918240200667"
+                className="text-primary hover:underline text-lg"
+              >
+                +91 8240200667
+              </a>
+            </div>
+            <div>
+              <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+                ✉️ Email
+              </h3>
+              <a
+                href="mailto:blueberryspafamilysalon@gmail.com"
+                className="text-primary hover:underline break-all"
+              >
                 blueberryspafamilysalon@gmail.com
               </a>
             </div>
